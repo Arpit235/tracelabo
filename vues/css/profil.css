@@ -1,0 +1,292 @@
+@media only screen and (max-width: 830px) {
+/*
+  .contenu {
+    height: 100%;
+  }
+*/
+  #milieu {
+    margin-top: 90px;
+    margin-bottom: 20px;
+  }
+
+  #profil {
+    flex-direction: column;
+  }
+
+  .infosDroite {
+    min-width: 270px;
+  }
+
+  .infosGauche {
+    min-width: 160px;
+    min-height: 160px;
+  }
+}
+
+@media only screen and (min-width: 831px) and (max-width: 1175px) {
+  .contenu {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+  }
+
+  #milieu {
+    margin-top: 90px;
+    margin-bottom: 20px;
+  }
+
+  .profilRow {
+    flex-direction: row;
+  }
+
+  .profilCol {
+    flex-direction: column;
+  }
+
+  #gauche {
+    margin-right: 15px;
+  }
+
+  #droite {
+    margin-left: 15px;
+  }
+
+  .infosDroite {
+    min-width: 420px;
+  }
+
+  .infosGauche {
+    min-width: 200px;
+    min-height: 200px;
+  }
+}
+
+@media only screen and (min-width: 1176px) {
+  .contenu {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+  }
+
+  #milieu {
+    margin: 110px 50px 50px 350px;
+  }
+
+  .profilRow {
+    flex-direction: row;
+  }
+
+  .profilCol {
+    flex-direction: column;
+  }
+
+  #gauche {
+    margin-right: 15px;
+  }
+
+  #droite {
+    margin-left: 15px;
+  }
+
+  .infosDroite {
+    min-width: 420px;
+  }
+
+  .infosGauche {
+    min-width: 200px;
+    min-height: 200px;
+  }
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e5e5;
+}
+
+#milieu {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+h4 {
+  font-weight: 500;
+}
+
+#profil {
+  display: flex;
+}
+
+#avatarProfil img {
+  width: auto;
+  height: 100%;
+  margin-left: -15%;
+}
+
+#avatarProfil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.infosGauche {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: white;
+  box-shadow: 0px 0px 50px -35px rgba(0,0,0,0.7);
+  border-radius: 10px;
+
+  margin-bottom: 20px;
+  padding: 20px;
+
+  transition: width 0.3s ease;
+}
+
+.nombre {
+  font-size: 40px;
+  margin: 0;
+}
+
+.infosGauche:hover {
+  transform: scale(1.05);
+  transition: all 0.3s;
+}
+
+.infosDroite:hover {
+  transform: scale(1.05);
+  transition: all 0.3s;
+}
+
+.infosDroite {
+  display: flex;
+  flex-direction: column;
+
+  background-color: white;
+  box-shadow: 0px 0px 50px -35px rgba(0,0,0,0.7);
+  border-radius: 10px;
+
+  margin-bottom: 20px;
+  padding: 40px;
+
+  transition: width 0.3s ease;
+}
+
+.titreBoite {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.titreBoite h3 {
+  margin: 0 0 20px 0;
+}
+
+.modifier {
+  margin: 0;
+}
+
+.annuler {
+  margin: 0;
+  display: none;
+}
+
+.modifier:hover {
+  color: #559e83;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.annuler:hover {
+  color: #f55555;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+}
+
+.titre {
+  min-width: 25%;
+  text-align: right;
+  margin-right: 30px;
+  color: #8e9a9d;
+}
+
+.valeur {
+  max-width: 75%;
+  text-align: left;
+}
+
+.valeurInput {
+  display: none;
+}
+
+.btnForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btnForm button {
+  display: none;
+
+  width: 100px;
+  height: 40px;
+  margin-top: 30px;
+
+  border: none;
+  border-radius: 20px;
+  background-color: #333;
+
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  color: white;
+
+  cursor: pointer;
+}
+
+.btnForm button[name="btnConfirmer"]:hover {
+  background-color: #559e83;
+  transition: 0.3s ease;
+}
+
+.info input {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+@keyframes appear {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}

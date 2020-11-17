@@ -1,0 +1,99 @@
+@media only screen and (max-width: 700px) {
+  #milieu {
+    margin-top: 90px;
+    margin-bottom: 20px;
+  }
+
+  .graphique {
+    width: 70vw;
+  }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1175px) {
+  .contenu {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+  }
+
+  #milieu {
+    margin-top: 90px;
+    margin-bottom: 20px;
+  }
+
+  .graphique {
+    width: 600px;
+  }
+
+  .boutonBas {
+    display: none;
+  }
+
+  #bouton {
+    border: none;
+    background-color: #5d5fc6;
+  }
+}
+
+@media only screen and (min-width: 1176px) {
+  .contenu {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+  }
+
+  #milieu {
+    margin: 110px 50px 50px 350px;
+  }
+
+  .graphique {
+    width: 600px;
+  }
+}
+
+html, body {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e5e5;
+}
+
+#milieu {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.graphique {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px -35px rgba(0,0,0,0.7);
+
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.graphique:hover {
+  transform: scale(1.05);
+  transition: all 0.3s;
+}
+
+@keyframes appear {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}

@@ -1,0 +1,144 @@
+@media only screen and (max-width: 1175px) {
+  nav {
+    height: 70px;
+  }
+
+  .videNav {
+    height: 70px;
+  }
+
+  .contenuNavDroite {
+    position: absolute;
+    top: 8px;
+    right: 15px;
+  }
+
+  .contenuNavDroite p {
+    display: none;
+  }
+
+  #menuUtilisateur {
+    top: 70px;
+    right: 0;
+  }
+}
+
+
+@media only screen and (min-width: 1176px) {
+  nav {
+    height: 90px;
+  }
+
+  .videNav {
+    height: 90px;
+  }
+
+  .contenuNavDroite {
+    top: 9px;
+    right: 20px;
+  }
+
+  .avatar {
+    margin-right: 15px;
+  }
+
+  #menuUtilisateur {
+    top: 90px;
+    right: 25px;
+  }
+}
+
+
+.blanc {
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.cacherMenuUtilisateur {
+  display: none;
+}
+
+nav {
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  width: 100%;
+  background-color: #F9DB25;
+}
+
+.contenuNavDroite {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+}
+
+.contenuNavDroite p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.contenuNavDroite ion-icon {
+  font-size: 30px;
+}
+
+.avatar {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.contenuNavDroite img {
+  width: auto;
+  height: 100%;
+  margin-left: -15%;
+}
+
+#boutonUtilisateur {
+  width: 35px;
+  border: none;
+  background-color: #32EC83;
+  color: white;
+}
+
+#menuUtilisateur {
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+}
+
+#menuUtilisateur a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 21px;
+}
+
+#menuUtilisateur a:hover {
+  color: #559e83;
+}
+
+.objMenuUtilisateur {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 0 15px 0;
+}
+
+.objMenuUtilisateur ion-icon {
+  margin-left: 30px;
+  margin-right: 15px;
+  font-size: 25px;
+}
+
+.videNav {
+  /* height en haut */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  pointer-events: none; /* pour pouvoir cliquer sur le bouton menu */
+}

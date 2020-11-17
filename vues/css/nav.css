@@ -1,0 +1,195 @@
+@media only screen and (max-width: 700px) {
+  nav {
+    height: 70px;
+  }
+
+  .videNav {
+    height: 70px;
+  }
+
+  .logoNav {
+    position: absolute;
+    right: 2%;
+    top: 7%;
+    /* Pour mettre le logo au centre
+    left: 50%;
+    transform: translate(-50%, 0%);
+    */
+  }
+
+  .logoNav img {
+    height: 62px;
+  }
+
+  .contenuNav {
+    display: none;
+  }
+
+  #logosLangue {
+    display: none;
+  }
+
+  .contenuNavMobile {
+    position: absolute;
+    top: 26%;
+    left: 3%;
+  }
+
+  .contenuNavMobile ion-icon {
+    color: black;
+    font-size: 36px;
+  }
+
+  .contenuNavMobile button {
+    margin: 0;
+  }
+
+  #menuDeroulant {
+    /*visibility: hidden;*/
+    /*max-width: 100%;*/
+    /*margin-top: 70px;*/
+    position: fixed;
+    top: 70px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #5355ad;
+  }
+
+  #menuDeroulant p {
+    text-align: center;
+    opacity: 1;
+  }
+
+  #menuDeroulant a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 6vw;
+  }
+
+  #menuDeroulant a:hover {
+    color: #a6a6a6;
+    transition: all 0.3s ease;
+  }
+}
+
+@media only screen and (min-width: 701px) {
+  nav {
+    height: 90px;
+  }
+
+  .videNav {
+    height: 90px;
+  }
+
+  .logoNav {
+    position: absolute;
+    left: 1%;
+    top: 7%;
+  }
+
+  .logoNav img {
+    height: 80px;
+  }
+
+  .contenuNav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 90px;
+  }
+
+  .contenuNavMobile {
+    display: none;
+  }
+
+  #menuDeroulant {
+    display: none;
+  }
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  background-color: #F9DB25;
+  width: 100%;
+  z-index: 10;
+  transition: all 1s ease;
+}
+
+.cacherMenuDeroulant {
+  display: none;
+}
+
+.cacherDefilement {
+  transform: translateY(-100%);
+}
+
+.videNav {
+  /* height en haut */
+  width: 100%;
+}
+
+.contenuNav a {
+  display: flex;
+  align-items: center;
+
+  color: white;
+  text-decoration: none;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 22px;
+}
+
+.contenuNav a:hover {
+  color: #f3f3f3;
+  transition: color 0.3s ease;
+}
+
+.flag {
+  height: 40px;
+}
+
+#listeLangues {
+  width: 80px;
+
+  position: absolute;
+  right: 27px;
+
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+  text-align: center;
+
+  padding-top: 12px;
+  padding-bottom: 15px;
+}
+
+#listeLanguesMobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#listeLanguesMobile img {
+  height: 8vw;
+  padding: 0 10px 0 10px;
+}
+
+#listeLanguesMobile img:hover {
+  transition: all ease 0.3s;
+  transform: scale(1.1);
+}
+
+.cacherListeLangues {
+  display: none;
+}
+
+.langue {
+  padding: 8px;
+}
+
+.langue img:hover {
+  transition: all ease 0.3s;
+  transform: scale(1.1);
+}

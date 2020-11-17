@@ -1,0 +1,330 @@
+@media only screen and (max-width: 700px) {
+    nav {
+        height: 70px;
+    }
+
+    .videNav {
+        height: 70px;
+    }
+
+    .logoNav {
+        position: absolute;
+        right: 2%;
+        top: 7%;
+        /* Pour mettre le logo au centre
+        left: 50%;
+        transform: translate(-50%, 0%);
+        */
+    }
+
+    .logoNav img {
+        height: 62px;
+    }
+
+    .contenuNav {
+        display: none;
+    }
+
+    .contenuNavMobile {
+        position: absolute;
+        top: 26%;
+        left: 3%;
+    }
+
+    .contenuNavMobile ion-icon {
+        color: black;
+        font-size: 36px;
+    }
+
+    .contenuNavMobile button {
+        margin: 0;
+    }
+
+    #menuDeroulant {
+        display: none;
+        max-width: 100%;
+        flex-direction: column;
+        margin-top: 70px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #5355ad;
+    }
+
+    #menuDeroulant p {
+        text-align: center;
+        opacity: 1;
+    }
+
+    #menuDeroulant a {
+        display: block;
+        text-decoration: none;
+        color: black;
+        font-size: 5vw;
+    }
+
+    #menuDeroulant a:hover {
+        color: white;
+        transition: all 0.5s ease;
+    }
+
+    .boutonBas {
+        display: none;
+    }
+
+    #bouton {
+        border: none;
+        background-color: #5d5fc6;
+    }
+
+    .icones ion-icon {
+        font-size: 7vw;
+    }
+
+    .icones {
+        font-size: 3vw;
+        flex-direction: column;
+    }
+
+    .imgtop {
+        margin-top: 70px;
+    }
+
+    #bas h3 {
+        font-size: 6vw;
+    }
+
+    #bas p {
+        font-size: 3vw;
+    }
+
+    .rs {
+        flex-direction: column;
+    }
+
+    #footer {
+        padding-top: 20px;
+        text-align: center;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .txtFooter p {
+        text-align: center;
+    }
+
+    .social ion-icon {
+        font-size: 9vw;
+    }
+}
+
+@media only screen and (min-width: 701px) {
+    nav {
+        height: 90px;
+    }
+
+    .videNav {
+        height: 90px;
+    }
+
+    .logoNav {
+        position: absolute;
+        left: 1%;
+        top: 7%;
+    }
+
+    .logoNav img {
+        height: 80px;
+    }
+
+    .contenuNavMobile {
+        display: none;
+    }
+
+    #menuDeroulant {
+        display: none;
+    }
+
+    .imgtop {
+        margin-top: 90px;
+    }
+
+    #bas {
+        font-size: 2.8vw;
+    }
+
+    #bas p {
+        font-size: 2vw;
+    }
+    .btntop{
+        opacity: 1;
+        position: fixed;
+        bottom: 40px;
+        right: 50px;
+        z-index: 1024;
+        cursor: pointer;
+        transition: opacity .2s ease-out;
+        display: block;
+        transform: scale(1.25,1.25);
+        scroll-behavior: smooth;
+        touch-action: manipulation;
+        box-shadow: inset 0 0px 0px rgba(0,0,0,0.125);
+        text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+        /*padding: .5rem 1rem;
+        font-size: 1.171875rem;
+        line-height: 1.5;
+        border-radius: 0;
+        text-decoration: none;
+        /*text-align: center;*/
+        line-height: 50px;
+        font-size: 22px;
+    }
+
+    .txtFooter p {
+        text-align: right;
+    }
+
+    .social ion-icon {
+        font-size: 3vw;
+    }
+}
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    background-color: #5D5FC6;
+    width: 100%;
+    z-index: 1;
+}
+
+.videNav {
+    /* height en haut */
+    width: 100%;
+}
+
+.contenuNav a {
+    color: white;
+    text-decoration: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 22px;
+}
+.contenuNav a:hover {
+    color: #1e83cb;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 22px;
+}
+
+.contenuNav {
+    position: absolute;
+    right: 0;
+    top: 30%;
+}
+
+#milieu{
+    background-color: #f2f2f2;
+    text-align: left;
+    flex: auto;
+}
+/*
+#milieu {
+    margin-top: -21px;
+    background-color: #CCC6DA;
+    padding: 5% 5% 8% 5%;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 300;
+    display: block;
+}
+
+.formulaire-login {
+    width: 600px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+.formulaire {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.formulaire p {
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    text-align: justify;
+}
+*/
+.rs {
+    display: flex;
+    justify-content:space-between;
+    padding-top: 4vw;
+    text-align: center;
+}
+
+.rs h3 {
+    text-align: center;
+}
+
+
+.rs ion-icon {
+    font-size: 5vw;
+}
+
+.rs ion-icon:hover {
+    transform: scale(1.5);
+    transition: 0.5s ease;
+}
+
+.icones ion-icon {
+    font-size: 5vw;
+}
+
+.icones ion-icon:hover {
+    font-size: 5vw;
+    -ms-transform: scale(1.5,1.5); /* pour IE 9 */
+    -webkit-transform: scale(1.5,1.5); /* pour Safari < 9.0 */
+    transform: scale(1.5,1.5); /* Syntaxe normale */
+    transition: transform 1s;
+}
+
+.icones {
+    display: flex;
+    justify-content:space-between;
+    padding-top: 4vw;
+}
+
+.icone1, .icone2, .icone3 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@keyframes appear {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

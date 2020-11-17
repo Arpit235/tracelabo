@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e9cdcdd3-fd5b-49d5-90e7-ee9f9021de6f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2">
+    <include_path>
+      <path value="C:/Program Files/PHP" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1jjy3uxGoEfA2xdZNc4T6HzXTrm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../www" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\darkm\PhpstormProjects\TraceLabo\modeles" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\darkm\PhpstormProjects\TraceLabo\controleurs" />
+      <recent name="C:\Users\darkm\PhpstormProjects\TraceLabo\modeles" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9cdcdd3-fd5b-49d5-90e7-ee9f9021de6f" name="Default Changelist" comment="" />
+      <created>1604331599279</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604331599279</updated>
+      <workItem from="1604331600762" duration="1875000" />
+      <workItem from="1604337708272" duration="1441000" />
+      <workItem from="1604340548488" duration="939000" />
+      <workItem from="1604426639944" duration="6957000" />
+      <workItem from="1604910541267" duration="3303000" />
+      <workItem from="1604955785179" duration="1801000" />
+      <workItem from="1605189365830" duration="14525000" />
+      <workItem from="1605224546140" duration="3422000" />
+      <workItem from="1605276117074" duration="8733000" />
+      <workItem from="1605448035523" duration="18812000" />
+      <workItem from="1605540901352" duration="528000" />
+      <workItem from="1605541639138" duration="3496000" />
+      <workItem from="1605618878489" duration="6563000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="221" y="0" key="#CLI_Interpreters" timestamp="1605619444655">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="221" y="0" key="#CLI_Interpreters/0.0.1280.680@0.0.1280.680" timestamp="1605619444655" />
+    <state x="349" y="0" key="#PHP" timestamp="1604340557927">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="349" y="0" key="#PHP/0.0.1280.680@0.0.1280.680" timestamp="1604340557927" />
+    <state x="233" y="0" key="#SQL_Dialects" timestamp="1605281604629">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#SQL_Dialects/0.0.1280.680@0.0.1280.680" timestamp="1605281604629" />
+    <state x="435" y="56" key="#com.intellij.ide.util.MemberChooser" timestamp="1605191486080">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="435" y="56" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1605191486080" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1605622504329">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1605622504329" />
+    <state x="407" y="155" key="NewPhpClassDialog" timestamp="1605189559084">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="407" y="155" key="NewPhpClassDialog/0.0.1280.680@0.0.1280.680" timestamp="1605189559084" />
+    <state x="477" y="264" key="NewPhpFileDialog" timestamp="1605192936672">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="477" y="264" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1605192936672" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1605619446434">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1605619446434" />
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1605618878816">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1605618878816" />
+  </component>
+</project>

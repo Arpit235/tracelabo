@@ -1,0 +1,147 @@
+@media only screen and (max-width: 700px) {
+  #bouton {
+    border: none;
+    background-color: #5d5fc6;
+  }
+
+  #milieu h1 {
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+
+  .txtMilieu ion-icon {
+    font-size: 60px;
+    margin-bottom: 70px
+  }
+}
+
+/**
+------------------------------------------
+**/
+
+@media only screen and (min-width: 701px) {
+  .contenu {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+  }
+  
+  #milieu h1 {
+    font-size: 50px;
+    margin-top: 140px;
+    margin-bottom: 20px;
+  }
+
+  .txtMilieu ion-icon {
+    font-size: 80px;
+    margin-bottom: 70px
+  }
+}
+
+/**
+------------------------------------------
+**/
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.videNav {
+  width: 100%;
+  height: 70px;
+}
+
+#milieu {
+  /*background: linear-gradient(#5D5FC6, #0d0e36);*/
+  background-color: #f2f2f2;
+  text-align: center;
+  flex: auto;
+}
+
+#milieu a {
+  font-size: 11px;
+  color: black;
+}
+
+.txtMilieu {
+  animation-name: appear;
+  animation-duration: 1s;
+}
+
+/* Couleur et alignement du div contenant un formulaire */
+.formulaire {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #e6e6e6;
+  width: 300px;
+  height: 50px;
+  border-radius: 50px;
+  margin: 0 auto; /* sert à centrer verticalement les formulaires */
+  margin-bottom: 30px;
+}
+
+/* Taille et couleur des zones de texte uniquement */
+.formulaire input {
+  height: 40px;
+  width: 220px;
+  border: none;
+  background-color: #e6e6e6;
+}
+
+/* Effet s'appliquant au div .formulaire lorsqu'on clique dans les zones de texte */
+.formulaire:focus-within {
+  transform: scale(1.05);
+  box-shadow: 2px 2px 3px #b3b3b3;
+  transition: all 0.2s;
+}
+
+/* Positionnement de l'icône à l'intérieur du formulaire */
+.formulaire ion-icon {
+  margin-left: 30px;
+}
+
+.envoyer {
+  margin-bottom: 50px;
+}
+
+/* Taille, couleur, police et positionnement du bouton "Envoyer" */
+.envoyer input {
+  height: 40px;
+  width: 150px;
+  border: none;
+  border-radius: 50px;
+  background-color: #e6e6e6;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* Changer la couleur du bouton "Envoyer" quand on passe la souris dessus */
+.envoyer input:hover {
+  background-color: #5d5fc6;
+  color: white;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+/* Police et alignement des textes dans les formulaires */
+::placeholder {
+  font-family: 'Oswald', sans-serif;
+  text-align: left;
+}
+
+@keyframes appear {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}

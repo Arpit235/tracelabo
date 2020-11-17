@@ -1,0 +1,48 @@
+@media only screen and (max-width: 700px) {
+  #bienvenue h1 {
+    margin: 10%;
+  }
+}
+
+@media only screen and (min-width: 701px) {
+  #bienvenue h1 {
+    margin: 5%;
+  }
+}
+
+#bienvenue {
+  position: absolute;
+
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  background-color: #2a3f54;
+  color: white;
+
+  z-index: 1000;
+}
+
+#bienvenue h1 {
+  font-size: 50px;
+  text-shadow: 3px 3px #333;
+}
+
+#bienvenue img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.cacherBienvenue {
+  display: none;
+}

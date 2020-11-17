@@ -1,0 +1,193 @@
+@media only screen and (max-width: 700px) {
+  #milieu {
+    margin: 70px 50px 50px 50px;
+  }
+
+  #milieu h1 {
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .formulaire {
+    width: 250px;
+  }
+
+  .formulaire input {
+    width: 170px;
+  }
+
+  .boutonBas {
+    display: none;
+  }
+
+  #bouton {
+    border: none;
+    background-color: #5d5fc6;
+  }
+}
+
+@media only screen and (min-width: 701px) {
+  .contenu {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+  }
+  
+  #milieu {
+    margin: 70px 50px 50px 350px;
+  }
+
+  #milieu h1 {
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .formulaire {
+    width: 320px;
+  }
+
+  .formulaire input {
+    width: 220px;
+  }
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e5e5;
+}
+
+#milieu {
+  flex: auto;
+}
+
+#milieu a {
+  font-size: 11px;
+  color: black;
+}
+
+#milieu p {
+  font-size: 20px;
+  color: black;
+}
+
+.test {
+  display: flex;
+  flex-direction: column;
+}
+
+.txtTest {
+  animation-name: appear;
+  animation-duration: 1s;
+}
+
+/* Couleur et alignement du div contenant un formulaire */
+.formulaire {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #f1f1f1;
+  height: 50px;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.formulaire input::placeholder {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+
+/* Taille et couleur des zones de texte uniquement */
+.formulaire input {
+  height: 40px;
+  border: none;
+  background-color: #f1f1f1;
+}
+
+/* Effet s'appliquant au div .formulaire lorsqu'on clique dans les zones de texte */
+.formulaire:focus-within {
+  transform: scale(1.05);
+  box-shadow: 2px 2px 3px #b3b3b3;
+  transition: all 0.2s;
+}
+
+/* Positionnement de l'icône à l'intérieur du formulaire */
+.formulaire ion-icon {
+  margin-left: 35px;
+}
+
+.option {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.option p {
+  margin-left: 10px;
+}
+
+.option input {
+  width: 200px;
+  height: 40px;
+  opacity: 0;
+}
+
+.option input:checked + label {
+  background-color: #5d5fc6;
+  color: white;
+}
+
+.option label {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  pointer-events: none;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.option ion-icon {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.envoyer {
+  margin-top: 20px;
+}
+
+/* Taille, couleur, police et positionnement du bouton "Envoyer" */
+.envoyer input {
+  height: 40px;
+  width: 150px;
+  border: none;
+  border-radius: 50px;
+  background-color: #f1f1f1;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* Changer la couleur du bouton "Envoyer" quand on passe la souris dessus */
+.envoyer input:hover {
+  background-color: #5d5fc6;
+  color: white;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+@keyframes appear {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}

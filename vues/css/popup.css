@@ -1,0 +1,147 @@
+@media only screen and (max-width: 700px) {
+  #bannerPopup {
+    height: 40px;
+  }
+
+  #popup {
+    min-width: 300px;
+    max-width: 380px;
+    height: 220px;
+    border-radius: 25px;
+  }
+
+  #bannerPopup ion-icon {
+    font-size: 20px;
+  }
+
+  #popup .message {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  #popup .sousMessage {
+    margin-top: 0;
+    font-size: 16px;
+  }
+
+  #popup .boutons {
+    padding-top: 10px;
+  }
+
+}
+
+
+@media only screen and (min-width: 701px) {
+  #bannerPopup {
+    width: 580px;
+    height: 80px;
+  }
+
+  #bannerPopup ion-icon {
+    font-size: 60px;
+  }
+
+  #popup {
+    width: 580px;
+    height: 350px;
+    border-radius: 25px;
+  }
+
+  #popup .message {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  #popup .sousMessage {
+    font-size: 18px;
+  }
+
+  #popup .boutons {
+    padding-top: 30px;
+  }
+
+  #popup button[value="Annuler"] {
+    margin-left: 80px;
+  }
+
+}
+
+#bannerPopup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #f55555;
+}
+
+#bannerPopup ion-icon {
+  color: white;
+}
+
+#popup {
+  /* Pour center la fenêtre sur la page */
+  margin: auto;
+  position: fixed;
+  top: 0; left: 0; bottom: 0; right: 0;
+  z-index: 10;
+
+  display: none;
+
+  background-color: #f1f1f1;
+  box-shadow: 0px 0px 70px -10px rgba(0,0,0,0.75);
+
+  text-align: center;
+  overflow: hidden;
+
+  animation-name: grow;
+  animation-duration: 0.5s;
+}
+
+#popup button {
+  width: 100px;
+  height: 40px;
+
+  border: none;
+  border-radius: 20px;
+  background-color: #333;
+
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  color: white;
+
+  cursor: pointer;
+}
+
+#popup button[name="btnConfirmer"]:hover {
+  background-color: #559e83;
+  transition: 0.3s ease;
+}
+
+#popup button[name="btnAnnuler"]:hover {
+  background-color: #f55555;
+  transition: 0.3s ease;
+}
+
+@keyframes grow {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes shrink {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(0);
+  }
+}

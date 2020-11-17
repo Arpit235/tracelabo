@@ -1,0 +1,235 @@
+@media only screen and (max-width: 700px) {
+  #milieu {
+    margin-top: 90px;
+    margin-bottom: 20px;
+  }
+
+  #milieu img {
+    height: 32px;
+    width: 32px;
+  }
+
+  #tableauMobile button {
+    height: 32px;
+    width: 32px;
+    margin: 0 10px 20px 0;
+  }
+
+  .tableau {
+    display: none;
+  }
+
+  #tableauMobile {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1175px) {
+  .contenu {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+  }
+
+  #milieu {
+    margin-top: 90px;
+    margin-bottom: 20px;
+  }
+
+  #tableauMobile button {
+    height: 24px;
+  }
+
+  #milieu img {
+    height: 24px;
+    width: 24px;
+  }
+
+  .boutonBas {
+    display: none;
+  }
+
+  #bouton {
+    border: none;
+    background-color: #5d5fc6;
+  }
+
+  #tableauMobile {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1176px) {
+  .contenu {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+  }
+
+  #milieu {
+    margin: 110px 50px 50px 350px;
+  }
+
+  #tableauMobile button {
+    height: 24px;
+  }
+
+  .tableau img {
+    height: 24px;
+    width: 24px;
+  }
+
+  #tableauMobile {
+    display: none;
+  }
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e5e5;
+}
+
+#milieu {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#milieu button {
+  padding: 0;
+  border: none;
+  border-radius: 100px;
+  background: none;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.tableau {
+  margin-top: 15px;
+}
+
+.tableau thead th {
+  background: #333;
+  height: 50px;
+  min-width: 90px;
+  font-weight: 300;
+  color: white;
+}
+
+.tableau thead th:first-child {
+  border-top-left-radius: 10px;
+}
+
+.tableau thead th:last-child {
+  border-top-right-radius: 10px;
+}
+
+.tableau tbody tr:nth-child(odd) td {
+  background-color: #ffffff;
+}
+
+.tableau tbody tr:nth-child(even) td {
+  background-color: #f5f5f5;
+}
+
+.tableau tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+
+.tableau tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
+
+.tableau tr td {
+  height: 80px;
+  text-align: center;
+}
+
+.tableau img {
+  height: 24px;
+  width: 24px;
+  vertical-align: bottom;
+}
+
+.tableau img:hover {
+  transform: scale(1.1,1.1);
+  transition: transform 0.3s ease;
+}
+
+#tableauMobile {
+  width: 85%;
+
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px -35px rgba(0,0,0,0.7);
+
+  background-color: white;
+}
+
+.cellule {
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: left;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.titre {
+  color: #555;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.valeur {
+  text-align: justify;
+  font-size: 20px;
+}
+
+.tableau button {
+  height: 24px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.btnAjouter img {
+  margin-top: 15px;
+  height: 48px;
+  width: 48px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.btnAjouter img:hover {
+  transform: scale(1.25,1.25);
+  transition: transform 0.3s ease;
+}
+
+.btnAjouter button {
+  margin-top: 15px;
+  height: 48px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+@keyframes appear {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
